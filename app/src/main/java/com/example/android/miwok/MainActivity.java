@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
-
+//////////////  NUMBERS //////////////
         // Find the View that shows the numbers category
         TextView numbers = (TextView) findViewById(R.id.numbers);
 
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(numbersIntent);
             }
         });
-
+//////////////  FAMILY //////////////
         // Find the View that shows the family category
         TextView family = (TextView) findViewById(R.id.family);
 
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(familyIntent);
             }
         });
-
+//////////////  COLORS //////////////
         // Find the View that shows the colors category
         TextView colors = (TextView) findViewById(R.id.colors);
 
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(colorsIntent);
             }
         });
-
+//////////////  PHRASES //////////////
         // Find the View that shows the phrases category
         TextView phrases = (TextView) findViewById(R.id.phrases);
 
@@ -95,4 +95,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+
 }
